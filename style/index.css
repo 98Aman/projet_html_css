@@ -1,0 +1,114 @@
+.presention-et-photo-de-profil {
+	padding: 90px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 30px;
+
+}
+
+h1 {
+	line-height: 1.5;
+}
+
+.presentation p {
+	margin-bottom: 30px;
+	font-size: 1.1em;
+}
+
+.photo-de-profil {
+	width: 230px;
+	border-radius: 50%;
+	box-shadow: -10px 10px 3px rgb(237, 247, 250);
+}
+.posts {
+	width: 100%;
+	background-color: rgb(237, 247, 250);
+}
+
+.conteneur {
+	width: 75%;
+	margin: 0px auto;
+	padding: 30px;
+}
+
+.categories-posts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.categories-posts p {
+	display: inline-block;
+	padding-bottom: 20px;
+}
+ 
+.post-bleue a{
+	color: rgb(0, 177, 204);
+	font-size: 1em;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 1s ease-out;
+}
+
+.post-bleue a:hover {
+	font-size: 1.2em;
+	color: #333;
+}
+
+.post-noire {
+	font-size : 1.3em;
+}
+
+.conteneur-postes {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	gap:20px; 
+}
+
+.Recent {
+	background-color:white;
+	border-radius: 5px;
+	padding: 20px;
+	margin:auto;
+	text-align: justify;
+}
+
+.Recent h2 {
+	margin-bottom: 25px;
+}
+
+.Recent p {
+	margin-bottom: 25px;
+}
+
+.featured-work {
+	padding: 30px;
+}
+
+.work {
+	font-size: 1.3em;
+}
+
+@media screen and (max-width: 996px) {
+
+	.presention-et-photo-de-profil {
+		flex-direction: column-reverse;
+		padding: 30px;
+	}
+	.photo-de-profil {
+		margin: auto;
+	}
+	.presentation {
+		margin-top: 30px;
+		text-align: center;
+		line-height: 1.4;
+	}
+	.presentation h1 {
+		margin-bottom: 20px;
+	}
+
+}

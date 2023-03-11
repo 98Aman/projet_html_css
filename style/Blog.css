@@ -1,0 +1,32 @@
+.lien-blog {
+	color: rgb(255, 100, 100);
+}
+
+.Blog {
+	width: 60%;
+}
+
+h1 {
+
+}
+
+h2, p {
+	margin-bottom: 5px;
+}
+
+span {
+	font-size: 1.3em;
+}
+
+.Express {
+	opacity: 0.5;
+}
+
+.bar {
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+hr, h2 {
+	margin-top: 20px;
+}

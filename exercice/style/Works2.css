@@ -1,0 +1,41 @@
+section {
+	width: 60%;
+}
+
+.lien-Works2 {
+	color: rgb(255, 100, 100);
+}
+
+h1 {
+	font-size: 2em;
+}
+
+
+span {
+	margin-right: 20px;
+	font-weight: bold;
+	background-color: rgb(255, 124, 124);
+	border-radius: 20px;
+	padding: 2px 8px;
+	font-size:1em;
+	color:white;
+}
+
+.premier-paragraphe {
+	font-size: 1.2em;
+}
+
+.exemple {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 996px) {
+
+	h1 {
+		font-size: 1.8em;
+		margin-bottom: 30px;
+	}
+
+}

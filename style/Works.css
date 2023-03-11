@@ -1,0 +1,22 @@
+section {
+	width: 60%;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.lien-Works {
+	color : rgb(255, 100, 100);
+}
+
+.description a {
+	margin-left: 0px;
+	font-size: 1em;
+	transition: all 1s ease-out;
+}
+
+.description a:hover {
+	font-size: 1.2em;
+}
